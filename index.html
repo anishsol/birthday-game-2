@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Adventure</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Birthday Adventure!</h1>
+    <p>Let's celebrate your special day with a fun adventure!</p>
+    <div class="form">
+      <label for="name">What's your name?</label>
+      <input type="text" id="name" placeholder="Enter your name">
+
+      <label for="age">How old are you today?</label>
+      <input type="number" id="age" placeholder="Enter your age">
+
+      <label for="color">What's your favorite color?</label>
+      <input type="text" id="color" placeholder="Enter your favorite color">
+
+      <button onclick="startAdventure()">Start Adventure</button>
+    </div>
+
+    <div id="birthdayMessage" class="hidden">
+      <p id="message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
